@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block js %}
+{% endblock %}
+
+{% block main %}
+
+<div class="container">
+  {{profile.image}}<br />
+  <h2>{{profile.first_name}} {{profile.last_name}}</h2> <br />
+  <h2>Profile add on: {{profile.time}} </h2> <br />
+  <h2>ID#: {{profile.id}}</h2> <br />
+  <h2>Sex: {{profile.sex}}</h2> <br />
+  <h2>Age: {{profile.age}}</h2> <br />
+</div>
+
+{% endblock %}
